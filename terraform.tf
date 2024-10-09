@@ -3,13 +3,15 @@
 
 terraform {
 
+/* comment start
   cloud {
-    organization = "organization-name"
+    organization = "Tutorial-Sandbox-van"
 
     workspaces {
       name = "learn-terraform"
     }
   }
+*/ comment end
 
   required_providers {
     aws = {

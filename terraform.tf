@@ -3,7 +3,7 @@
 
 terraform {
 
-/* comment start
+/* 
   cloud {
     organization = "Tutorial-Sandbox-van"
 
@@ -11,7 +11,7 @@ terraform {
       name = "learn-terraform"
     }
   }
-*/ comment end
+*/
 
   required_providers {
     aws = {
